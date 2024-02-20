@@ -4,6 +4,8 @@ import mongoose from './db/db.js';
 import routes from './routes/index.js';
 import dotenv from 'dotenv';
 
+// this is new
+
 const app = express();
 
 dotenv.config({ path: './.env' });
